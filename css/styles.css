@@ -1,0 +1,81 @@
+.body {
+    color: #212121;
+    background-color: #fff;
+}
+
+p {
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration-line:none;
+    color: #212121;
+}
+
+/*стилизация логотипа*/
+.logo span {
+    color: #2196F3;
+}
+
+/*site nav*/
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-link a:hover,
+.contacts-link a:focus {
+    color: #2196F3;
+}
+
+/*Contacts*/
+ .contacts-link a {
+    color: #757575;
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+/*Стилизация кнопок*/
+.button:hover,
+.button:focus,
+.holder:hover,
+.icon:hover
+ {
+    background-color: #2196F3;
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2F303A;
+}
+footer .logo,
+footer b
+{
+    color: #FFFFFF;
+}
+
+/*цвет основного текста #212121*/
+
+/*вторичный цвет #757575*/
+
+/*белый #FFFFFF*/
+
+/*акцент #2196F3*/
+
+/*основной цвет фона #FFFFFF*/
+
+/*вторичный цвет фона #F5F4FA*/
+
+/*цвет фона футера #2F303A*/
+
