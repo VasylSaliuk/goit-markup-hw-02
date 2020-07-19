@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
   <header class="page-header">
     <nav>
       <a href="/" class="logo"><span>Web</span> Studio</a>
 
-      <ul class="site-nav">
+      <ul class="site-nav list">
         <li><a href="./index.html" class="link">Студия</a></li>
-        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+        <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
         <li><a href="" class="link">Контакты</a></li>
       </ul>
     </nav>
@@ -51,59 +53,68 @@
                 
           </ul>
 
-          <ul>
+          <ul class="card">
               <li>
-                  <a href="#" class="button"><img src="./img/portfolio/technokriak.jpg" alt="" width="370">
+                  <a href="#"><img src="./img/portfolio/technokriak.jpg" alt="" width="370">
                   <h2>Технокряк</h2>
                   <p>Веб-сайт</p>
+                  <p class="text-hover">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/basket.jpg" alt="" width="370">
                   <h2>Постер New Orlean vs Golden Star</h2>
                   <p>Дизайн</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/seafood.jpg" alt="" width="370">
                   <h2>Ресторан Seafood</h2>
                   <p>Приложение</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/prime.jpg" alt="" width="370">
                   <h2>Проект Prime</h2>
                   <p>Маркетинг</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/boxes.jpg" alt="" width="370">
                   <h2>Проект Boxes</h2>
                   <p>Приложение</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/inspiration.jpg" alt="" width="370">
                   <h2>Inspiration has no Borders</h2>
                   <p>Веб-сайт</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/le.jpg" alt="" width="370">
                   <h2>Издание Limited Edition</h2>
                   <p>Дизайн</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/lab.jpg" alt="" width="370">
                   <h2>Проект LAB</h2>
                   <p>Маркетинг</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
               <li>
                   <a href="#"><img src="./img/portfolio/gb.jpg" alt="" width="370">
                   <h2>Growing Business</h2>
                   <p>Приложение</p>
+                  <p class="text-hover">Lorem ipsum dolor sit amet.</p>
                   </a>
               </li>
           </ul>
@@ -113,7 +124,7 @@
     <!-- Секция Футера -->
     <footer>
       <a href="/" class="logo"><span>Web</span> Studio</a>
-      <address>
+      <address class="address">
         <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
         <ul class="contacts-link">
           <li><a href="mailto:info@example.com" target="_blank" rel="noopener noreferrer">
@@ -122,24 +133,27 @@
         </ul>
       </address>
         
-        <b>Присоединяйтесь</b>
-        <ul>
-          <li><a href="" target="_blank" rel="noopener noreferrer" 
+      <b>Присоединяйтесь</b>
+      <ul class="social-links">
+        <li><a href="" target="_blank" rel="noopener noreferrer" 
             aria-label="Ссылка на Instagram">Instagram</a>
-          </li>
+        </li>
   
-          <li><a href="" target="_blank" rel="noopener noreferrer"
+        <li><a href="" target="_blank" rel="noopener noreferrer"
             aria-label="Ссылка на Twitter">Twitter</a>
-          </li>
+        </li>
   
-          <li><a href="" target="_blank" rel="noopener noreferrer"
+        <li><a href="" target="_blank" rel="noopener noreferrer"
             aria-label="Ссылка на Facebook">Facebook</a>
-          </li>
+        </li>
   
-          <li><a href="" target="_blank" rel="noopener noreferrer"
+        <li><a href="" target="_blank" rel="noopener noreferrer"
             aria-label="Ссылка на LinkedIn">LinkedIn</a>
-          </li>
-        </ul>
+        </li>
+      </ul>
+      
+      <b>Подпишитесь на рассылку</b>
+      <button type="button" class="button main">Подписаться</button>
     </footer>  
 </body>
 </html>
