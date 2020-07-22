@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -6,20 +16,18 @@
     --secondary-background-color: #F5F4FA;
 }
 
-.body {
+body {
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     font-style: normal;
-}
-
-h1, h2, h3 {
-    font-family: Roboto, sans-serif;
-}
-
-p {
-    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+}
+.visually-hidden { 
+    position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); padding:0 !important; border:0 !important; height: 1px !important; width: 1px !important; overflow: hidden;
+}
+ 
+p {
     color: var(--secondary-text-color);
 }
 
@@ -28,13 +36,11 @@ ul {
 }
 
 a {
-    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration-line:none;
-    color: var(--primary-text-color);
 }
 
 /*стилизация логотипа*/
@@ -49,7 +55,6 @@ a {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .logo span {
@@ -101,7 +106,6 @@ a {
 .address,
 footer b,
 footer .social-links a {
-    font-family: Roboto, sans-serif;
     font-style: normal;
     color: var(--primary-white-color);
 }
